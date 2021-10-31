@@ -1,0 +1,30 @@
+body {
+    background-color: #a3c1ad;
+    margin: 0;
+}
+#navBar > div {
+    padding: 20px;
+}
+#navBar {
+    background-color: aliceblue;
+    width: 100%;
+    position: sticky;
+
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#navBar.mobile {
+    flex-direction: row;
+}
+
+#logoContainer {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+}
