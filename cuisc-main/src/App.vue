@@ -3,7 +3,7 @@
         <div id="navImg2"></div>
         <div class="flex" id="navImg3">
             <div>
-                <img alt="Vue logo" src="./assets/logos/rect.png" width="200px" />
+                <img alt="Vue logo" src="./assets/logos/rect.png" width="400" />
             </div>
         </div>
     </div>
@@ -31,6 +31,8 @@
     <footer>
         <div class="flex"></div>
     </footer>
+
+
 </template>
 
 <style>
@@ -49,9 +51,11 @@
     position: absolute;
     background-color: aliceblue;
     opacity: 0.4;
+    z-index: 4;
 }
 
-#navImg3 {
+#navImg3, #navImg3>div {
+    z-index: 5;
 }
 
 #app {
@@ -71,11 +75,11 @@
 
 #nav a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #19251d;
 }
 
 #nav a.router-link-exact-active {
-    color: #42b983;
+    color: #A3C1AD;
 }
 
 div.flex {
@@ -97,6 +101,24 @@ html {
 footer {
     width: 100%;
     height: 50px;
-    background-color: #2c3e50;
+    background-color: #19251d;
 }
 </style>
+
+<script lang="ts">
+import Vue from 'vue'
+import $ from 'jquery'
+export default{
+    mounted() {
+        
+        function resize(){
+            var navHeight: any = $('#nav').outerHeight()
+            $('#navImg1').height(window.innerHeight-navHeight)
+        }
+        window.onresize = resize
+        resize()
+    },
+
+}
+
+</script>
