@@ -1,0 +1,1 @@
+import{_ as a}from"./index.c03e8643.js";import{o as r,c as l,F as s,a as e}from"./vendor.27f6a2ae.js";const t={},o=e("title",null,"Gallery | CUISC",-1),c=e("div",{class:"gallery"},[e("h1",null,"Gallery")],-1);function n(_,d){return r(),l(s,null,[o,c],64)}var m=a(t,[["render",n]]);export{m as default};

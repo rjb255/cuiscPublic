@@ -1,0 +1,1 @@
+import{_ as t}from"./index.dc027cf9.js";import{o,c as s,F as a,a as e}from"./vendor.6f2dcdb0.js";const c={},n=e("title",null,"About | CUISC",-1),r=e("div",{class:"about"},[e("h1",null,"This is an about page")],-1);function _(d,l){return o(),s(a,null,[n,r],64)}var f=t(c,[["render",_]]);export{f as default};
