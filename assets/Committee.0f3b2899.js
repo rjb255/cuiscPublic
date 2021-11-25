@@ -1,0 +1,1 @@
+import{_ as t}from"./index.91de7870.js";import{c as o,o as c,n as s,a as e}from"./vendor.ecc5f0ac.js";const n={},a=e("title",null,"Committee | CUISC",-1),r=e("div",{class:"committee"},[e("h1",null,"Meet the Committee")],-1);function m(i,_){return c(),o(s,null,[a,r],64)}var f=t(n,[["render",m]]);export{f as default};
